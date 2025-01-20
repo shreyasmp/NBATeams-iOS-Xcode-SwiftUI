@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-class NBATeamService {
+class NBATeamServiceImpl: NBATeamService {
     
     private let baseURL = "https://raw.githubusercontent.com/shreyasmp/RxJavaBeginner/master/input.json"
     

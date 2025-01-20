@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DD5F037C2D3E0E4100FA40CA /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = DD5F037B2D3E0E4100FA40CA /* ViewInspector */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DD31BFD52D38CB0000D251E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -66,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5F037C2D3E0E4100FA40CA /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +163,7 @@
 			);
 			name = NBATeamsUITests;
 			packageProductDependencies = (
+				DD5F037B2D3E0E4100FA40CA /* ViewInspector */,
 			);
 			productName = NBATeamsUITests;
 			productReference = DD31BFDE2D38CB0000D251E1 /* NBATeamsUITests.xctest */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = DD31BFBB2D38CAFF00D251E1;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DD5F037A2D3E0E4100FA40CA /* XCRemoteSwiftPackageReference "ViewInspector" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = DD31BFC52D38CAFF00D251E1 /* Products */;
 			projectDirPath = "";
@@ -552,6 +561,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD5F037A2D3E0E4100FA40CA /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				kind = exactVersion;
+				version = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD5F037B2D3E0E4100FA40CA /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD5F037A2D3E0E4100FA40CA /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD31BFBC2D38CAFF00D251E1 /* Project object */;
 }
