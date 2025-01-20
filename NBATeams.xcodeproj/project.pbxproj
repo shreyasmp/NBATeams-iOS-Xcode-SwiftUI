@@ -49,6 +49,11 @@
 			path = NBATeamsUITests;
 			sourceTree = "<group>";
 		};
+		DD5F03A22D3E191900FA40CA /* Images */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,7 @@
 		DD31BFBB2D38CAFF00D251E1 = {
 			isa = PBXGroup;
 			children = (
+				DD5F03A22D3E191900FA40CA /* Images */,
 				DD31BFC62D38CAFF00D251E1 /* NBATeams */,
 				DD31BFD72D38CB0000D251E1 /* NBATeamsTests */,
 				DD31BFE12D38CB0000D251E1 /* NBATeamsUITests */,
@@ -114,6 +120,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				DD31BFC62D38CAFF00D251E1 /* NBATeams */,
+				DD5F03A22D3E191900FA40CA /* Images */,
 			);
 			name = NBATeams;
 			packageProductDependencies = (
